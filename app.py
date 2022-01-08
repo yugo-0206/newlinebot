@@ -17,8 +17,8 @@ from SentensePiece import reply
 
 app = Flask(__name__)
 
-app.config['CHANNEL_ACCESS_TOKEN'] = 'BBRbzcN0GjBelHIlfA0QkwsCGqN5kNVJcH9m5kEO//OPT74Ml0i5YAjHeEWUHU1HmAUfsJ/7bn6mQ1v1yQQSTIkZBnCdDDTrCrpqV3jORXuEy2oiPUXsLSbgjd6LHz1kdFnvcJxIWbpj0qrrlXewiwdB04t89/1O/w1cDnyilFU='
-app.config['CHANNEL_SECRET'] = '21a4d78b5cd16fe7b22580095a364185'
+app.config['CHANNEL_ACCESS_TOKEN'] = 'U/oVg3fG2HXcIMdcLWeNcGJBGkIWZkmFQKlu6RbsiIGS0/5Skf//k4NBTelHhGEZO7muRgTldBTMYGK+tBlpYiBMuPOXWFed3s2lpjod4wCNG5Q1w/lWsGIaNyNEWSz0JouYkBv+VsOnqHtW6IsP6gdB04t89/1O/w1cDnyilFU='
+app.config['CHANNEL_SECRET'] = '3105443c8351506641764c0ea3353fbd'
 
 line_bot_api = LineBotApi(app.config['CHANNEL_ACCESS_TOKEN'])
 handler = WebhookHandler(app.config['CHANNEL_SECRET'])
