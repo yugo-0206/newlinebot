@@ -53,13 +53,13 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     # ここで文章生成
-    line_bot_api.reply_message(
-        event.reply_token,
-        TextSendMessage(text="メッセージありがとう！"))
+    # line_bot_api.reply_message(
+    #     event.reply_token,
+    #     TextSendMessage(text="メッセージありがとう！"))
 
-    line_bot_api.reply_message(
-        event.reply_token,
-        TextSendMessage(text="返信考え中！"))
+    # line_bot_api.reply_message(
+    #     event.reply_token,
+    #     TextSendMessage(text="返信考え中！"))
 
     try:
         reply_text = reply()
