@@ -73,8 +73,8 @@ def reply():
     import sentencepiece as spm
     import os
 
-    text_file = 'lineTalk.txt'
-    person_name = '渡邉 渉'
+    text_file = 'lineTalk2.txt'
+    person_name = '齊藤 悠悟'
 
     coupus = read_text(text_file)
     sentence = preprocessing(coupus, person_name)
